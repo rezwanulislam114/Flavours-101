@@ -3,19 +3,18 @@ body {
     padding: 0;
     font-family: 'Heebo', sans-serif;
 }
-.container {
-    margin: 5% 3%;
-}
 .row {
+    margin: 5% 3%;
     display: flex;
     justify-content: space-between;
 }
 .half {
     width: 50%;
+    margin: 0 50px;
 }
 .half img {
-    width: 80%;
-    margin-left: 15%;
+    width: 90%;
+    margin-left: 0;
 }
 .half h1 {
     font-size: 60px;
@@ -24,9 +23,33 @@ p {
     font-size: 18px;
 }
 .orange {
-    color: #f0850b;
+    color: #f0720b;
     font-family: 'Dancing Script', cursive;
 }
 .gray {
     color: #6d6d6d;
+}
+.link-button {
+    text-decoration: none;
+    font-size: 18px;
+    background: linear-gradient(90deg, #eb4141, #fda129);
+    padding: 10px 30px;
+    border-radius: 25px;
+    color: #fff;
+    margin-top: 25px;
+    display: inline-block;
+}
+.about {
+    background: url(./images/about-bg.jpg);
+    padding-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about .half img {
+    width: 50%;
+    margin-left: 15%;
+}
+.title {
+    font-size: 36px;
+    color: #5a5a5a;
 }
