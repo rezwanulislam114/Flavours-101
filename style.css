@@ -23,6 +23,7 @@ body {
 }
 p {
     font-size: 18px;
+    margin: 0;
 }
 .orange {
     color: #f0720b;
@@ -38,7 +39,7 @@ p {
     padding: 10px 30px;
     border-radius: 25px;
     color: #fff;
-    margin-top: 25px;
+    margin-top: 35px;
     display: inline-block;
 }
 .about {
@@ -82,4 +83,29 @@ p {
 }
 .recipie-text h3 {
     font-size: 24px;
+    margin-bottom: 5px;
+}
+.followers .row {
+    margin: 7% 4.5%;
+    box-shadow: 5px 5px 25px gray;
+    border-radius: 25px;
+    padding: 45px;
+    justify-content: space-around;
+}
+.subscirb h3{
+    font-size: 50px;
+    margin: 0;
+}
+.footer {
+    background: #000;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 25px;
+}
+.footer h1 {
+    font-size: 34px;
+}
+.footer p {
+    font-size: 14px;
 }
