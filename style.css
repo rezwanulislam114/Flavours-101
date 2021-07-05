@@ -3,8 +3,10 @@ body {
     padding: 0;
     font-family: 'Heebo', sans-serif;
 }
-.row {
+.container {
     margin: 5% 3%;
+}
+.row {
     display: flex;
     justify-content: space-between;
 }
@@ -52,4 +54,32 @@ p {
 .title {
     font-size: 36px;
     color: #5a5a5a;
+}
+.recipie {
+    margin-top: 8%;
+}
+.recipie-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.recipie-item {
+    width: 25%;
+    margin: 25px;
+    box-shadow: 5px 5px 25px gray;
+    border-radius: 25px;
+    text-align: center;
+    padding: 30px;
+}
+.recipie-item img{
+    width: 100%;
+}
+.recipie-text {
+    text-align: left;
+}
+.recipie-text p {
+    font-size: 16px;
+}
+.recipie-text h3 {
+    font-size: 24px;
 }
