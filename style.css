@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+.container {
+    margin: 5% 3%;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.half {
+    width: 50%;
+}
+.half img {
+    width: 80%;
+    margin-left: 15%;
+}
+.half h1 {
+    font-size: 60px;
+}
+p {
+    font-size: 18px;
+}
+.orange {
+    color: #f0850b;
+    font-family: 'Dancing Script', cursive;
+}
+.gray {
+    color: #6d6d6d;
+}
