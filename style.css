@@ -109,3 +109,21 @@ p {
 .footer p {
     font-size: 14px;
 }
+.review .title {
+    text-align: center;
+}
+.customer-review img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.customer-review {
+    width: 50%;
+    margin: 25px;
+    border-left: 7px solid #f0720b;
+    padding: 0 25px;
+}
+.customer-review h4 {
+    margin: 15px 0;
+    font-size: 20px;
+}
