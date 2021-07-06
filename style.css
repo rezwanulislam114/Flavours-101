@@ -14,9 +14,10 @@ body {
     width: 50%;
     margin: 0 50px;
 }
-.half img {
-    width: 90%;
-    margin-left: 0;
+#banner-img {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
 }
 .half h1 {
     font-size: 60px;
@@ -45,13 +46,14 @@ p {
 }
 .about {
     background: url(./images/about-bg.jpg);
-    padding-top: 20px;
+    padding-top: 10px;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.about .half img {
+#about-img {
     width: 50%;
-    margin-left: 15%;
+    margin: 0 auto;
+    display: block;
 }
 .title {
     font-size: 36px;
